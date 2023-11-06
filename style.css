@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login {
+  display: flex;
+} 
+
+/* -------------------------------------------LEFT SECTION-------------------------------------------- */
+
+.leftsec {
+  height: 95vh;
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo svg {
+  height: 330px;
+  width: 330px;
+}
+
+/* -------------------------------------------RIGHT SECTION-------------------------------------------- */
+
+.rightsec {
+  float: right;
+  height: 95vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.happening {
+  font-size: 64px;
+  color: #0f1419;
+  font-weight: bolder;
+  margin-bottom: 48px;
+  letter-spacing: -2px;
+  font-family: Verdana, sans-serif;
+}
+
+#jointoday {
+  font-size: 31px;
+  font-weight: bolder;
+  font-family: Verdana, sans-serif;
+  margin-bottom: 32px;
+}
+
+.googlesignin {
+  display: flex;
+  border: 1.5px solid #d7deea;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  padding: 0px 16px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  margin-bottom: 12px;
+  transition-duration: 0.3s;
+}
+
+.googlesignin:hover {
+  background-color: rgba(29, 156, 240, 0.05);
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.googleicon svg {
+  margin-right: 7px;
+}
+
+.googlecontent {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.applesignin {
+  display: flex;
+  border: 1.5px solid #d7deea;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  padding: 0px 16px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  margin-bottom: 12px;
+  transition-duration: 0.3s;
+}
+
+.applesignin:hover {
+  background-color: #d7dadf;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.appleicon svg {
+  margin-right: 7px;
+}
+
+.applecontent {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.applecontent span {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.or {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.orcontent span {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 20px;
+}
+
+.createaccount {
+  display: flex;
+  border: 1.5px solid #d7deea;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  background-color: #1d9bf0;
+  padding: 0px 16px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  margin-bottom: 12px;
+  transition-duration: 0.3s;
+}
+
+.createaccount:hover {
+  background-color: #127ec5;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.createacccontent {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.bysigning {
+  width: 300px;
+  font-size: 11px;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+
+.already {
+  margin-top: 40px;
+  font-size: 17px;
+  font-family: sans-serif;
+  color: #0f1419;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.sign_in {
+  background-color: white;
+  display: flex;
+  border: 1.5px solid #d7deea;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  padding: 0px 16px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  margin-bottom: 8px;
+  transition-duration: 0.3s;
+}
+
+.sign_in:hover {
+  background-color: rgba(29, 156, 240, 0.1);
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.sign_in_content {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+/* -------------------------------------------Footer-------------------------------------------- */
+
+.footer {
+  padding: 0 16px 12px 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer span {
+  font-size: 13px;
+  color: #536471;
+  font-family: sans-serif;
+  margin: 4px 0px;
+  padding: 0px 16px 0px 0px;
+}
+
+.footer span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/*----------------------------------------- MEDIA QUERIES ----------------------------------------*/
+
+@media (max-width: 1000px) {
+  .login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .logo {
+    display: flex;
+  }
+  .logo svg {
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+  }
+  .leftsec {
+    padding: 10px 20px;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    width: 70vw;
+  }
+  .rightsec{
+    height: fit-content;
+    width: 70vw;
+    padding: 30px;
+  }
+}
+@media (max-width: 480px){
+  .happening{
+    font-size: 30px;
+  }
+  
+  #jointoday{
+    font-size: 20px;
+  }
+}
