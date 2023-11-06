@@ -119,11 +119,8 @@ list.addEventListener("click", function (event) {
   if (Edit == false) {
     return;
   } else {
-    const numberOfPosts = document.querySelectorAll(".post-width").length;
-    for (let i = 0; i <= numberOfPosts; i++) {
-      const content = document.querySelectorAll(".post-width")[i];
-      content.contentEditable = true;
-    }
+    const content = document.querySelector(".post-width");
+    content.contentEditable = true;
   }
 });
 
